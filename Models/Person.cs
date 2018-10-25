@@ -19,11 +19,11 @@
 
 		//[System.ComponentModel.DataAnnotations.Display
 		//	(ResourceType = typeof(Resources.Models.Person),
-		//	Name = Resources.Models.Strings.PersonKeys.Age)]
+		//	Name = nameof(Age))]
 
 		[System.ComponentModel.DataAnnotations.Display
 			(ResourceType = typeof(Resources.Models.Person),
-			Name = nameof(Age))]
+			Name = Resources.Models.Strings.PersonKeys.Age)]
 
 		[System.ComponentModel.DataAnnotations.Range
 			(typeof(int), "25", "35",
